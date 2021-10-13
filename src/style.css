@@ -1,3 +1,11 @@
+.appBorder {
+  border: 1px solid gray;
+}
+
 h1 {
   color: blueviolet;
+}
+
+ul {
+  list-style: none;
 }
