@@ -17,28 +17,30 @@
   </head>
   <body>
     <div class="container">
-        <div class="appBorder"
-      <h1>New York</h1>
-      <ul>
-        <li>Friday 05:00</li>
-        <li>CLear</li>
-      </ul>
-      <div class="row">
-        <div class="col-6">
-          <img src="" alt="sunny" />
-          12°C | °F
-        </div>
-        <div class="col-6">
-          <ul>
-            <li>Precipitation: 0%</li>
-            <li>Humidity: 60%</li>
-            <li>Wind: 5km/p</li>
-          </ul>
+      <div class="appBorder">
+        <h1 id="city">New York</h1>
+        <ul>
+          <li>Friday 05:00</li>
+          <li id="description">CLear</li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <img src="" alt="sunny" />
+            <div class="float-left">
+              <strong id="temperature">12</strong>
+              <span> °C | °F </span>
+            </div>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Precipitation: 0%</li>
+              <li>Humidity: <span id="humidity">60 </span>%</li>
+              <li>Wind: <span id="wind-speed">5</span>km/p</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-      <small> 
-          Open-source code, By Bianca </small>
+      <small> Open-source code, By Bianca </small>
     </div>
     <script src="src/app.js"></script>
   </body>

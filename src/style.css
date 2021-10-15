@@ -9,3 +9,7 @@ h1 {
 ul {
   list-style: none;
 }
+
+li {
+  text-transform: capitalize;
+}
