@@ -30,7 +30,12 @@
               />
             </div>
             <div class="col-3">
-              <input type="submit" value="search" class="btn btn-primary" />
+              <input
+                type="submit"
+                value="search"
+                class="btn btn-primary"
+                id="button"
+              />
             </div>
           </div>
         </form>
@@ -43,16 +48,16 @@
           <div class="col-6">
             <div class="clearfix">
               <img src="" alt="sunny" id="icon" class="float-left" />
-              <div class="float-left">
-                <strong id="temperature">12</strong>
-                <span
-                  ><a href="#" id="celsius-link" class="active">°C</a> |
+              <div class="mainTemp">
+                <span>
+                  <strong id="temperature">12</strong>
+                  <a href="#" id="celsius-link" class="active">°C</a> |
                   <a href="#" id="fahrenheit-link">°F</a></span
                 >
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-6" id="furtherInfo">
             <ul>
               <li>Humidity: <span id="humidity">60 </span>%</li>
               <li>Wind: <span id="wind-speed">5</span>km/p</li>
@@ -60,7 +65,15 @@
           </div>
         </div>
       </div>
-      <small> Open-source code, By Bianca </small>
+      <small>
+        <a
+          href="https://github.com/Bianca-K33/Vanilla_Weather."
+          target="_blank"
+          id="gitLink"
+          >Open-source</a
+        >
+        code, By Bianca
+      </small>
     </div>
     <script src="src/app.js"></script>
   </body>
