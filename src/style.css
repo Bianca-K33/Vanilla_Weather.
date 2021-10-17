@@ -13,3 +13,22 @@ ul {
 li:first-letter {
   text-transform: capitalize;
 }
+
+.active {
+  color: gray;
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+#fahrenheit-link {
+  text-decoration: none;
+}
+
+#celsius-link {
+  text-decoration: none;
+}
