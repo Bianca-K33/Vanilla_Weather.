@@ -63,3 +63,16 @@ li:first-letter {
 #gitLink {
   color: #6c5b7c;
 }
+
+.weather-forecast {
+  text-align: center;
+}
+
+.weather-forecast-date {
+  color: #6c5b7c;
+  font-size: 20px;
+}
+
+#weather-forecast-min {
+  opacity: 0.5;
+}
